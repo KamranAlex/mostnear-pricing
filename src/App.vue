@@ -1,26 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="d-flex justify-content-center">
+    <img src="./assets/logo.png" alt="" />
+    <h1 class="pricing-title mt-5">Pricing</h1>
+  </div>
+  <PricingCard />
+  <Footer />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import PricingCard from './components/PricingCard'
+import Footer from './components/Footer'
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: { PricingCard, Footer },
+  data() {
+    return {
+      title: 'Hello Vue',
+    }
+  },
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
+  height: auto;
+}
+.pricing-title {
+  color: #6f5bda;
 }
 </style>
