@@ -150,14 +150,14 @@
 
 <style scoped>
 .card {
-  width: 15rem;
+  width: 16rem;
   height: auto;
   margin: 5px auto;
   border: 1px solid #a497ee;
   box-shadow: 0 0 10px grey;
 }
 img {
-  height: 160px;
+  height: 170px;
 }
 hr {
   margin-top: 0.75rem;
