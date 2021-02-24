@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex justify-content-center">
-    <img src="./assets/logo.png" alt="" />
+    <img src="./assets/tm-logo.jpg" alt="" style="height:124px" />
     <h1 class="pricing-title mt-5">Pricing</h1>
   </div>
   <PricingCard />

@@ -4,10 +4,11 @@
       <div class="col-md-3">
         <div class="card">
           <img src="../assets/bizped.png" class="card-img-top" alt="..." />
+          <h4 class="brand-title">Bizped</h4>
           <hr />
           <div class="card-body">
             <div class="pricing">
-              <h3>$10 / <span>month</span></h3>
+              <h3>$10/<span>year</span></h3>
               <hr />
             </div>
 
@@ -29,7 +30,7 @@
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
-              <button class="btn-danger">Subscribe</button>
+              <button class="btn-danger">Subscribe Now</button>
             </div>
           </div>
 
@@ -40,10 +41,11 @@
       <div class="col-md-3">
         <div class="card">
           <img src="../assets/bestdeals.png" class="card-img-top" alt="..." />
+          <h4 class="brand-title">Best Deals</h4>
           <hr />
           <div class="card-body">
             <div class="pricing">
-              <h3>$10 / <span>month</span></h3>
+              <h3>$10/<span>year</span></h3>
               <hr />
             </div>
 
@@ -65,7 +67,7 @@
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
-              <button class="btn-warning">Subscribe</button>
+              <button class="btn-warning">Subscribe Now</button>
             </div>
           </div>
 
@@ -76,10 +78,11 @@
       <div class="col-md-3">
         <div class="card">
           <img src="../assets/jobs.png" class="card-img-top" alt="..." />
+          <h4 class="brand-title">Hiring Now</h4>
           <hr />
           <div class="card-body">
             <div class="pricing">
-              <h3>$10 / <span>month</span></h3>
+              <h3>$10/<span>year</span></h3>
               <hr />
             </div>
 
@@ -101,7 +104,7 @@
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
-              <button class="btn-primary">Subscribe</button>
+              <button class="btn-primary">Subscribe Now</button>
             </div>
           </div>
 
@@ -112,10 +115,11 @@
       <div class="col-md-3">
         <div class="card">
           <img src="../assets/handshake.png" class="card-img-top" alt="..." />
+          <h4 class="brand-title">Advertisement</h4>
           <hr />
           <div class="card-body">
             <div class="pricing">
-              <h3>$10 / <span>month</span></h3>
+              <h3>$10/<span>year</span></h3>
               <hr />
             </div>
 
@@ -137,7 +141,7 @@
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
-              <button class="btn-info">Subscribe</button>
+              <button class="btn-info">Subscribe Now</button>
             </div>
           </div>
 
@@ -157,7 +161,14 @@
   box-shadow: 0 0 10px grey;
 }
 img {
-  height: 170px;
+  height: 128px;
+  width: 50%;
+  margin: auto;
+}
+.brand-title {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  color: #086597;
 }
 hr {
   margin-top: 0.75rem;
@@ -213,6 +224,6 @@ button {
 }
 button:hover {
   transform: scale(1.15);
-  color: #000000;
+  color: #ffffff;
 }
 </style>
