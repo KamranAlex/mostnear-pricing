@@ -12,21 +12,15 @@
               <hr />
             </div>
 
-            <div class="description mt-2">
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <hr />
-            </div>
-
             <div class="features mt-2">
               <h5 class="text-center">Features:</h5>
 
               <ul>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
+                <li><small>Post your Business Profile </small></li>
+                <li><small>Your vision.</small></li>
+                <li><small>Your mission.</small></li>
+                <li><small>Your products.</small></li>
+                <li><small>Your expertise.</small></li>
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
@@ -49,21 +43,16 @@
               <hr />
             </div>
 
-            <div class="description mt-2">
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <hr />
-            </div>
-
             <div class="features mt-2">
               <h5 class="text-center">Features:</h5>
 
               <ul>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
+                <li>
+                  <small>
+                    Post your promotional items here that are exclusively
+                    offered at a bargain
+                  </small>
+                </li>
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
@@ -86,21 +75,16 @@
               <hr />
             </div>
 
-            <div class="description mt-2">
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <hr />
-            </div>
-
             <div class="features mt-2">
               <h5 class="text-center">Features:</h5>
 
               <ul>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
+                <li>
+                  <small
+                    >Post your Open Positions here that you are currently trying
+                    to fill.</small
+                  >
+                </li>
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
@@ -123,21 +107,16 @@
               <hr />
             </div>
 
-            <div class="description mt-2">
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <hr />
-            </div>
-
             <div class="features mt-2">
               <h5 class="text-center">Features:</h5>
 
               <ul>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
-                <li><small>Lorem ipsum dolor.</small></li>
+                <li>
+                  <small
+                    >Upload your Details including your weblink, Images of your
+                    facility,etc.</small
+                  >
+                </li>
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
@@ -190,9 +169,9 @@ hr {
   text-transform: capitalize;
   color: #6f5bda;
 }
-/* .features h5 {
-  color: #ca048f;
-} */
+.features {
+  height: 180px;
+}
 ul {
   list-style: none;
 }
