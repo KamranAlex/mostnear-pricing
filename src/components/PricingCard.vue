@@ -50,7 +50,7 @@
                 <li>
                   <small>
                     Post your promotional items here that are exclusively
-                    offered at a bargain
+                    offered at a bargain.
                   </small>
                 </li>
               </ul>
