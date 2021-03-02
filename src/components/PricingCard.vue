@@ -16,15 +16,17 @@
               <h5 class="text-center">Features:</h5>
 
               <ul>
-                <li><small>Post your Business Profile </small></li>
-                <li><small>Your vision.</small></li>
-                <li><small>Your mission.</small></li>
-                <li><small>Your products.</small></li>
-                <li><small>Your expertise.</small></li>
+                <li class="bizped-features">
+                  <small>Post your Business Profile </small>
+                </li>
+                <li class="bizped-features"><small>Your vision.</small></li>
+                <li class="bizped-features"><small>Your mission.</small></li>
+                <li class="bizped-features"><small>Your products.</small></li>
+                <li class="bizped-features"><small>Your expertise.</small></li>
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
-              <button class="btn-danger">Subscribe Now</button>
+              <button class="btn-success">Subscribe Now</button>
             </div>
           </div>
 
@@ -47,7 +49,7 @@
               <h5 class="text-center">Features:</h5>
 
               <ul>
-                <li>
+                <li class="bestDeal-features">
                   <small>
                     Post your promotional items here that are exclusively
                     offered at a bargain.
@@ -56,7 +58,7 @@
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
-              <button class="btn-warning">Subscribe Now</button>
+              <button class="btn-danger">Subscribe Now</button>
             </div>
           </div>
 
@@ -79,7 +81,7 @@
               <h5 class="text-center">Features:</h5>
 
               <ul>
-                <li>
+                <li class="hiring-features">
                   <small
                     >Post your Open Positions here that you are currently trying
                     to fill.</small
@@ -88,7 +90,7 @@
               </ul>
             </div>
             <div class="subscribe-btn mt-4">
-              <button class="btn-primary">Subscribe Now</button>
+              <button class="btn-warning">Subscribe Now</button>
             </div>
           </div>
 
@@ -111,7 +113,7 @@
               <h5 class="text-center">Features:</h5>
 
               <ul>
-                <li>
+                <li class="adv-features">
                   <small
                     >Upload your Details including your weblink, Images of your
                     facility,etc.</small
@@ -178,15 +180,44 @@ ul {
 ul li {
   padding-right: 30px;
 }
-ul li small {
-  color: rgb(4, 161, 4);
-}
 
-ul li:before {
+ul .bizped-features {
+  color: #43aa8b;
+}
+ul .bizped-features:before {
   content: '✓';
   font-size: 12px;
   margin: auto 6px auto 0;
   color: rgb(4, 161, 4);
+}
+
+ul .bestDeal-features {
+  color: #ff006e;
+}
+ul .bestDeal-features:before {
+  content: '✓';
+  font-size: 12px;
+  margin: auto 6px auto 0;
+  color: #ff006e;
+}
+
+ul .hiring-features {
+  color: #ffaa00;
+}
+ul .hiring-features:before {
+  content: '✓';
+  font-size: 12px;
+  margin: auto 6px auto 0;
+  color: #f8961e;
+}
+ul .adv-features {
+  color: #00b4d8;
+}
+ul .adv-features:before {
+  content: '✓';
+  font-size: 12px;
+  margin: auto 6px auto 0;
+  color: #00b4d8;
 }
 .leaf-logo {
   height: 35px;
